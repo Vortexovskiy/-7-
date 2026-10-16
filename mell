@@ -936,14 +936,14 @@ local now2
 	tbl7.Method = "Faster Kick"
 
 	v23:AddDropdown({
-		Name = "Ownership",
-		 Options = { "Faster Kick", "Ragdoll Kick", "Ownership Kick (Normal)", "[OP] Loop Grab Kick" },
-		Default = "Faster Kick",
-		Flag = "Targ_GrabMethod",
-		Callback = function(method)
-			tbl7.Method = method
-		end,
-	})
+    Name = "Ownership",
+    Options = { "Faster Kick", "Normal Kick" },
+    Default = "Faster Kick",
+    Flag = "Targ_GrabMethod",
+    Callback = function(method)
+        tbl7.Method = method
+    end,
+})
 
 	v23:AddToggle({
 		Name = "Kick",
