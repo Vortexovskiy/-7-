@@ -1839,6 +1839,46 @@ CharGroup:AddButton({
     end,
 })
 
+-- ===== Auto Drop Pallet =====
+local AutoPalletState = {
+    Enabled = false,
+    Safety = true,
+    TriggerDistance = 12,
+}
+
+local PalletGroup = VisualsTab:AddLeftGroupbox("Auto Drop Pallet")
+
+PalletGroup:AddToggleButton("Auto Drop Pallet", function(state)
+    AutoPalletState.Enabled = state
+    if state then
+        Notify({
+            Title = "Auto Drop Pallet",
+            Content = "Enabled — waiting for game mechanic detection",
+            Duration = 3,
+        })
+    end
+end)
+
+PalletGroup:AddToggleButton("Safety", function(state)
+    AutoPalletState.Safety = state
+end, true)
+
+PalletGroup:AddSlider("PalletTriggerDistance", {
+    Text = "Trigger Distance",
+    Min = 5,
+    Max = 40,
+    Default = 12,
+    Step = 1,
+    Suffix = " studs",
+    Callback = function(value)
+        AutoPalletState.TriggerDistance = value
+    end,
+})
+
+-- Detection/interaction is intentionally not guessed here:
+-- Violence District's actual pallet objects and interaction
+-- mechanism must be identified before enabling automatic drops.
+
 -- ===== Обновления при респавне/заходе/выходе =====
 Players.PlayerAdded:Connect(function(plr)
     task.wait(0.5)
