@@ -37613,7 +37613,7 @@ v21:AddDivider("Kick Settings")
 
 -- DROPDOWN: Normal / Faster
 v21:AddDropdown("NKDelayConf", {
-    Values = { "Normal", "Faster", "Slower" },
+    Values = { "Normal", "Faster but worse", "Slower Kick" }
     Multi = false,
     Default = 1,
     Text = "Delay Mode",
@@ -37679,31 +37679,6 @@ v21:AddButton({
     end,
 })
     -- DependencyBox: настройки видны ТОЛЬКО при выборе Slower Kick
-local slowerKickBox = v20:AddDependencyBox()
-slowerKickBox:SetupDependencies({ { options.NKDelayConf, "Slower Kick" } })
-
-slowerKickBox:AddSlider("SlowerKickDelay", {
-    Text = "Destroy Line Delay",
-    Default = 0.01,
-    Min = 0,
-    Max = 0.02,
-    Rounding = 3,
-    Suffix = "s",
-    Tooltip = "0 = fastest, 0.02 = slowest",
-    Callback = function(delay)
-        tbl8.SlowerKickDelay = delay
-    end,
-})
-
-slowerKickBox:AddToggle("SlowerKickRagdoll", {
-    Text = "Ragdoll",
-    Default = true,
-    Tooltip = "Enable ragdoll before kick",
-    Callback = function(ragdoll)
-        tbl8.SlowerKickRagdoll = ragdoll
-    end,
-})
--- DependencyBox: настройки видны ТОЛЬКО при выборе Slower Kick
 local slowerKickBox = v20:AddDependencyBox()
 slowerKickBox:SetupDependencies({ { options.NKDelayConf, "Slower Kick" } })
 
