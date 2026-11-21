@@ -17363,7 +17363,7 @@ do
 										Title = arg or "AntiLose",
 										Text = arg2 or "Notification",
 										Duration = arg3 or 5,
-										Icon = "rbxthumb://type=Asset&id=92381157551848&w=420&h=420",
+										Icon = "rbxthumb://type=Asset&id=94504122563342&w=420&h=420",
 									})
 								end
 
@@ -17576,7 +17576,7 @@ do
 								Description = arg,
 								Time = arg4 or 5,
 								SoundId = arg3 or n34,
-								BigIcon = "rbxthumb://type=Asset&id=92381157551848&w=420&h=420",
+								BigIcon = "rbxthumb://type=Asset&id=94504122563342&w=420&h=420",
 								Volume = n35,
 								IconColor = Color3.new(1, 1, 1),
 							})
@@ -17589,186 +17589,184 @@ do
 								fn18("You have high ping, so you might have issues while using the script! Your current ping: " .. n36 .. "ms")
 							end
 						end)
-tbl8 = {
-    WalkSpeed = false,
-    JumpPower = false,
-    InfJump = false,
-    Noclip = false,
-    Flight = false,
-    MoreLineExtend = false,
-    SuperStrength = false,
-    Desync = false,
-    JerkOff = false,
-    LoopTpLocation = false,
-    AutoSeatBlobman = false,
-    FreezeBlobman = false,
-    NetworkOwnerInKick = false,
-    DeleteShurInBlobK = true,
-    AntiGrab = false,
-    GucciAntiGrab = false,
-    AntiBurn = false,
-    AntiExplosion = false,
-    AntiKick = false,
-    AntiKick2 = false,
-    AntiPaint = false,
-    AntiBlobman = false,
-    AutoAntiLag = true,
-    AntiInputLag = false,
-    AntiSticky = false,
-    AntiShurikenLag = false,
-    AntiBanana = false,
-    AntiSnowball = false,
-    AntiVoid = false,
-    AutoReset = true,
-    AutoLeave = true,
-    LoopTP = false,
-    CounterAttack = false,
-    DestroyVoid = false,
-    LoopApplyMethod = false,
-    LoopApplyMethodServer = false,
-    LoopApplyMethodT = false,
-    LoopApplyMethodTServer = false,
-    RagdollInNK = true,
-    RagdollInRG = false,
-    DeleteShurInNK = true,
-    EKI = false,
-    AutoHouse = false,
-    Invisibility = false,
-    GradientLine = false,
-    AutoSlot = false,
-    ControllingSomeone = false,
-    AutoClicker = false,
-    RagdollInAC = true,
-    IndependentACPoses = false,
-    CustomACPoseCenter = false,
-    PlayerESP = false,
-    PCLDESP = false,
-    SmoothPCLD = true,
-    StickyESP = false,
-    BlackholeESP = false,
-    Shaders = false,
-    ChinaHat = false,
-    Zoom = false,
-    SmoothClickTP = true,
-    CustomLine = false,
-    CustomCrosshair = false,
-    CameraNoclip = false,
-    ForcefieldChar = false,
-    CustomBlackHole = false,
-    CustomBlackholeSound = false,
-    BlackholeStaying = false,
-    GOI = false,
-    NonSwimmableWater = false,
-    Grab = false,
-    Aura = false,
-    ExcludeTarget = true,
-    ToyAuras = false,
-    AuraVisualizer = false,
-    ToyAuraVisualizer = false,
-    SilentAim = false,
-    SilentAimFOV = false,
-    SilentAimIgnoreWhitelist = true,
-    SilentAimTargetsOnly = false,
-    PositionPrediction = false,
-    DirectGrab = false,
-    LagServer = false,
-    PacketLagServer = false,
-    AutoExplodeTarget = false,
-    CoconutForms = false,
-    BreakAllHoldables = false,
-    HighlightBrokenParts = false,
-    LoopApplyMethodEFServer = false,
-    LoopApplyMethodEF = false,
-    AutoClaimPlot = false,
-    SoundSpam = false,
-    FasterEscape = false,
-    AutoServerHop = false,
-    ServerHopIncludeFull = false,
-    AutoRejoin = false,
-    RejoinWithAntiLag = true,
-    RejoinWithScript = false,
-    OnlyAssignedKeybinds = false,
-    WhitelistedBypass = false,
-    AutoWhitelistFriends = false,
-    ImmunityAntiGrab = false,
-    ImmunityAntiKick = false,
-    ImmunityAntiExplosion = false,
-    -- НОВЫЕ ПЕРЕМЕННЫЕ
-    SlowerKickRagdoll = true,
-    SlowerKickDelay = 0.01,
-    RabbitMode = true,
-}
+
+						tbl8 = {
+							WalkSpeed = false,
+							JumpPower = false,
+							InfJump = false,
+							Noclip = false,
+							Flight = false,
+							MoreLineExtend = false,
+							SuperStrength = false,
+							Desync = false,
+							JerkOff = false,
+							LoopTpLocation = false,
+							AutoSeatBlobman = false,
+							FreezeBlobman = false,
+							NetworkOwnerInKick = false,
+							DeleteShurInBlobK = true,
+							AntiGrab = false,
+							GucciAntiGrab = false,
+							AntiBurn = false,
+							AntiExplosion = false,
+							AntiKick = false,
+							AntiKick2 = false,
+							AntiPaint = false,
+							AntiBlobman = false,
+							AutoAntiLag = true,
+							AntiInputLag = false,
+							AntiSticky = false,
+							AntiShurikenLag = false,
+							AntiBanana = false,
+							AntiSnowball = false,
+							AntiVoid = false,
+							AutoReset = true,
+							AutoLeave = true,
+							LoopTP = false,
+							CounterAttack = false,
+							DestroyVoid = false,
+							LoopApplyMethod = false,
+							LoopApplyMethodServer = false,
+							LoopApplyMethodT = false,
+							LoopApplyMethodTServer = false,
+							RagdollInNK = true,
+							RagdollInRG = false,
+							DeleteShurInNK = true,
+							EKI = false,
+							AutoHouse = false,
+							Invisibility = false,
+							GradientLine = false,
+							AutoSlot = false,
+							ControllingSomeone = false,
+							AutoClicker = false,
+							RagdollInAC = true,
+							IndependentACPoses = false,
+							CustomACPoseCenter = false,
+							PlayerESP = false,
+							PCLDESP = false,
+							SmoothPCLD = true,
+							StickyESP = false,
+							BlackholeESP = false,
+							Shaders = false,
+							ChinaHat = false,
+							Zoom = false,
+							SmoothClickTP = true,
+							CustomLine = false,
+							CustomCrosshair = false,
+							CameraNoclip = false,
+							ForcefieldChar = false,
+							CustomBlackHole = false,
+							CustomBlackholeSound = false,
+							BlackholeStaying = false,
+							GOI = false,
+							NonSwimmableWater = false,
+							Grab = false,
+							Aura = false,
+							ExcludeTarget = true,
+							ToyAuras = false,
+							AuraVisualizer = false,
+							ToyAuraVisualizer = false,
+							SilentAim = false,
+							SilentAimFOV = false,
+							SilentAimIgnoreWhitelist = true,
+							SilentAimTargetsOnly = false,
+							PositionPrediction = false,
+							DirectGrab = false,
+							LagServer = false,
+							PacketLagServer = false,
+							AutoExplodeTarget = false,
+							CoconutForms = false,
+							BreakAllHoldables = false,
+							HighlightBrokenParts = false,
+							LoopApplyMethodEFServer = false,
+							LoopApplyMethodEF = false,
+							AutoClaimPlot = false,
+							SoundSpam = false,
+							FasterEscape = false,
+							AutoServerHop = false,
+							ServerHopIncludeFull = false,
+							AutoRejoin = false,
+							RejoinWithAntiLag = true,
+							RejoinWithScript = false,
+							OnlyAssignedKeybinds = false,
+							WhitelistedBypass = false,
+							AutoWhitelistFriends = false,
+							ImmunityAntiGrab = false,
+							ImmunityAntiKick = false,
+							ImmunityAntiExplosion = false,
+						}
+
 						tbl9 = {
-    WalkSpeed = 16,
-    JumpPower = 24,
-    FlightSpeed = 1,
-    SpinSpeed = 15,
-    LineDistance = 0,
-    IncreaseLineDistance = 1,
-    SuperStrength = 400,
-    CounterMethod = "Kill",
-    ExplosionMethod = "BombMissile",
-    MissilesToFire = 1,
-    TargetedLimbAura = "All",
-    TargetedLimbCA = "All",
-    TargetedLimbTE = "All",
-    SAIMHitbox = 10,
-    SAIMRadius = 250,
-    AutoClickerOffset = CFrame.new(0, 0, -5),
-    AutoClickerTransparency = 0,
-    SelectedACPose = "Default",
-    CustomACPresetName = "",
-    AntiLagSens = 3,
-    InputLgDelay = 0.05,
-    GucciType = "CreatureBlobman",
-    AKType = "Shuriken",
-    AntiInputType = "FoodHamburger",
-    FasterEscape = 3,
-    AGType = "Normal",
-    AILTransparency = 1,
-    UnstickGrab = "All Toys Near",
-    BlobMethod = "Kick",
-    BKMethod = 1,
-    NKOffset = 15,
-    NKDelayMode = "Normal",
-    KickServerMethod = "Circle + Lag",
-    KickFlags = 0,
-    AuraDistance = 25,
-    ToyAuraDistance = 31,
-    CustomLine = "Chain 2",
-    CustomCrosshairSize = 32,
-    CustomCrosshairColor = Color3.new(1, 1, 1),
-    CustomBlackhole = "rbxassetid://9920612764",
-    CustomBHColor = Color3.new(1, 1, 1),
-    CursorIconSize = 20,
-    CursorIconColor = Color3.new(1, 1, 1),
-    ChinaHatColor = Color3.fromRGB(255, 170, 70),
-    ForcefieldColor = Color3.new(1, 1, 1),
-    ZoomFOV = 20,
-    ZoomMinFOV = 10,
-    ZoomMaxFOV = 120,
-    ZoomStep = 5,
-    ZoomCameraSmoothness = 9,
-    WaterYOffset = -4,
-    AspectRatio = 1,
-    TeleportLocation = workspace.Waypoints.BlueHouse,
-    SoundsExternalDelay = 0.1,
-    CustomNotificationSound = "97643101798871",
-    ShiftLockKey = "LeftAlt",
-    IsBarrierBroken = false,
-    LagLines = 11,
-    BlackHoles = 0,
-    Packets = 0.35,
-    PacketPrefix = "RSC | ",
-    PacketDelay = 0.1,
-    LoboStrength = 166.6,
-    AutoServerHopTime = 30,
-    ServerHopMinPlayers = 0,
-    ServerHopMaxPlayers = Players.MaxPlayers,
-    ServerHopSort = "Closest Datacenter",
-    ServerHopRegion = "Automatic",
-    ArcHeight = 15,
-}
+							WalkSpeed = 16,
+							JumpPower = 24,
+							FlightSpeed = 1,
+							SpinSpeed = 15,
+							LineDistance = 0,
+							IncreaseLineDistance = 1,
+							SuperStrength = 400,
+							CounterMethod = "Kill",
+							ExplosionMethod = "BombMissile",
+							MissilesToFire = 1,
+							TargetedLimbAura = "All",
+							TargetedLimbCA = "All",
+							TargetedLimbTE = "All",
+							SAIMHitbox = 10,
+							SAIMRadius = 250,
+							AutoClickerOffset = CFrame.new(0, 0, -5),
+							AutoClickerTransparency = 0,
+							SelectedACPose = "Default",
+							CustomACPresetName = "",
+							AntiLagSens = 3,
+							InputLgDelay = 0.05,
+							GucciType = "CreatureBlobman",
+							AKType = "Shuriken",
+							AntiInputType = "FoodHamburger",
+							FasterEscape = 3,
+							AGType = "Normal",
+							AILTransparency = 1,
+							UnstickGrab = "All Toys Near",
+							BlobMethod = "Kick",
+							BKMethod = 1,
+							NKOffset = 15,
+							NKDelayMode = "Normal",
+							KickServerMethod = "Circle + Lag",
+							KickFlags = 0,
+							AuraDistance = 25,
+							ToyAuraDistance = 31,
+							CustomLine = "Chain 2",
+							CustomCrosshairSize = 32,
+							CustomCrosshairColor = Color3.new(1, 1, 1),
+							CustomBlackhole = "rbxassetid://9920612764",
+							CustomBHColor = Color3.new(1, 1, 1),
+							CursorIconSize = 20,
+							CursorIconColor = Color3.new(1, 1, 1),
+							ChinaHatColor = Color3.fromRGB(255, 170, 70),
+							ForcefieldColor = Color3.new(1, 1, 1),
+							ZoomFOV = 20,
+							ZoomMinFOV = 10,
+							ZoomMaxFOV = 120,
+							ZoomStep = 5,
+							ZoomCameraSmoothness = 9,
+							WaterYOffset = -4,
+							AspectRatio = 1,
+							TeleportLocation = workspace.Waypoints.BlueHouse,
+							SoundsExternalDelay = 0.1,
+							CustomNotificationSound = "97643101798871",
+							ShiftLockKey = "LeftAlt",
+							IsBarrierBroken = false,
+							LagLines = 11,
+							BlackHoles = 0,
+							Packets = 0.35,
+							PacketPrefix = "RSC | ",
+							PacketDelay = 0.1,
+							LoboStrength = 166.6,
+							AutoServerHopTime = 30,
+							ServerHopMinPlayers = 0,
+							ServerHopMaxPlayers = Players.MaxPlayers,
+							ServerHopSort = "Closest Datacenter",
+							ServerHopRegion = "Automatic",
+						}
+
 						tbl7 = {
 							Whitelisted = {},
 							SelectedPlayers = {},
@@ -18969,34 +18967,10 @@ tbl8 = {
 								v22 = cFrame2
 							end
 
-	if arg.CFrame ~= cFrame2 then
-	if tbl8.RabbitMode then
-		local startPos = arg.Position
-		local startRot = arg.CFrame - startPos
-		local endPos = cFrame2.Position
-		local duration = 0.3
-		local t0 = tick()
-		local conn
-		
-		conn = RunService.RenderStepped:Connect(function()
-			local alpha = math.clamp((tick() - t0) / duration, 0, 1)
-			local s = alpha * alpha * (3 - 2 * alpha)
-			local basePos = startPos:Lerp(endPos, s)
-			local lift = Vector3.new(0, tbl9.ArcHeight * math.sin(s * math.pi), 0)
-			arg.CFrame = CFrame.new(basePos + lift) * startRot
-			
-			if alpha >= 1 then
-				conn:Disconnect()
-				arg.CFrame = CFrame.new(endPos) * startRot
-				pcall(function()
-					arg.AssemblyLinearVelocity = Vector3.zero
-				end)
-			end
-		end)
-	else
-		arg.CFrame = cFrame2
-	end
-end
+							if arg.CFrame ~= cFrame2 then
+								arg.CFrame = cFrame2
+							end
+
 							if arg3 ~= false then
 								tbl12.ResetVelocity(arg)
 							end
@@ -20789,149 +20763,7 @@ end
 						end
 					end))
 				end
-            
--- PENCIL ANTI-KICK
-local pencilSettings = {X = -1, Y = 2, Z = 0.5, RX = 90, RY = 33, RZ = 0, ToyName = "ToolPencil"}
 
-local function pencilIsAttachedToBack(toy)
-    if toy and toy:FindFirstChild("StickyPart") then
-        local weld = toy.StickyPart:FindFirstChild("StickyWeld")
-        if weld and weld.Part1 then
-            local part = weld.Part1
-            if part.Name == "Head" then return false, true end
-            if part == localPlayer.Character:FindFirstChild("HumanoidRootPart") then return true, false end
-            return false, false
-        end
-    end
-    return false, false
-end
-
-local function pencilClearOld(toyToKeep)
-    local inv = workspace:FindFirstChild(localPlayer.Name .. "SpawnedInToys")
-    local destroyrem = ReplicatedStorage:FindFirstChild("MenuToys") and ReplicatedStorage.MenuToys:FindFirstChild("DestroyToy")
-    if inv and destroyrem then
-        for _, v in pairs(inv:GetChildren()) do
-            if v.Name == "AntiKick" or v.Name == pencilSettings.ToyName then
-                if v == toyToKeep then continue end
-                local onBack, _ = pencilIsAttachedToBack(v)
-                if onBack then continue end
-                pcall(function() destroyrem:FireServer(v) end)
-            end
-        end
-    end
-end
-
-local function pencilDisableCollision(toy)
-    if not toy then return end
-    for _, obj in pairs(toy:GetChildren()) do
-        if obj.Name == "Pyramid" or obj.Name == "Main" or obj:IsA("BasePart") then
-            obj.CanTouch = false
-            obj.CanCollide = false
-            obj.CanQuery = false
-        end
-    end
-end
-
-local function pencilStickToy(toy)
-    if not toy or not toy:FindFirstChild("StickyPart") then return false end
-    local v22, v23, v24 = tbl12.Char()
-    if not v23 then return false end
-    pencilDisableCollision(toy)
-    if toy:FindFirstChild("SoundPart") then tbl12.SNO(toy.SoundPart) end
-    local firePart = v23:FindFirstChild("FirePlayerPart") or v23:WaitForChild("FirePlayerPart", 5)
-    if not firePart then return false end
-    pcall(function()
-        tbl11.StickyPartEvent:FireServer(toy.StickyPart, firePart, CFrame.new(pencilSettings.X, pencilSettings.Y, pencilSettings.Z) * CFrame.Angles(math.rad(pencilSettings.RX), math.rad(pencilSettings.RY), math.rad(pencilSettings.RZ)))
-    end)
-    return true
-end
-
-local function pencilSpawnAndStick()
-    local toy = tbl12.SpawnToy(pencilSettings.ToyName, nil, 3, true)
-    if not toy then return nil end
-    toy.Name = "AntiKick"
-    task.wait(0.05)
-    pencilStickToy(toy)
-    return toy
-end
-
-local function pencilEnsureActive()
-    local inv = workspace:FindFirstChild(localPlayer.Name .. "SpawnedInToys")
-    if not inv then return false end
-    local pencilToy = inv:FindFirstChild("AntiKick") or inv:FindFirstChild(pencilSettings.ToyName)
-    if not pencilToy then
-        pencilToy = pencilSpawnAndStick()
-        return pencilToy ~= nil
-    end
-    local onBack, onHead = pencilIsAttachedToBack(pencilToy)
-    if onHead then
-        pencilClearOld(nil)
-        task.wait(0.005)
-        pencilToy = pencilSpawnAndStick()
-        return pencilToy ~= nil
-    elseif not onBack then
-        pencilStickToy(pencilToy)
-        return true
-    end
-    return true
-end
-                tbl12.SlowerKick = function(targetPlayer)
-	if not targetPlayer or not targetPlayer.Character then return end
-	local targetHRP = targetPlayer.Character:FindFirstChild("HumanoidRootPart")
-	local targetHum = targetPlayer.Character:FindFirstChild("Humanoid")
-	if not (targetHRP and targetHum and targetHum.Health > 0) then return end
-	
-	-- 1. FREEZE WHILE KICK - замораживаем цель
-	local bodyPosition = Instance.new("BodyPosition", targetHRP)
-	bodyPosition.Name = "FreezeBP"
-	bodyPosition.Position = targetHRP.Position
-	bodyPosition.MaxForce = Vector3.one * math.huge
-	bodyPosition.D = 500
-	
-	local bodyGyro = Instance.new("BodyGyro", targetHRP)
-	bodyGyro.Name = "FreezeBG"
-	bodyGyro.CFrame = targetHRP.CFrame
-	bodyGyro.MaxTorque = Vector3.one * math.huge
-	bodyGyro.D = 500
-	
-	tbl12.ResetVelocity(targetHRP)
-	
-	-- 2. OWNERSHIP KICK SEQUENCE - захватываем владение (3 раза)
-	for i = 1, 3 do
-		pcall(function()
-			tbl12.SNO(targetHRP)
-		end)
-		task.wait(0.02)
-	end
-	
-	-- 3. KICK - применяем кик
-	tbl12.Grab(targetHRP)
-	
-	if tbl8.RagdollInNK then
-		task.spawn(tbl12.Ragdoll, targetPlayer.Character)
-	end
-	
-	if tbl8.DeleteShurInNK then
-		task.spawn(tbl12.RemoveSticky, targetPlayer.Character)
-	end
-	
-	tbl12.ToggleCollisions(targetPlayer.Character, false)
-	tbl12.RepositionLimbs(targetPlayer.Character, true)
-	
-	-- 4. Освобождаем владение через настраиваемую задержку
-	task.wait(tbl8.SlowerKickDelay or 0.01)
-	tbl12.RNO(targetHRP)
-	
-	-- 5. Размораживаем через 1 секунду
-	task.delay(1, function()
-		if bodyPosition and bodyPosition.Parent then
-			bodyPosition:Destroy()
-		end
-		if bodyGyro and bodyGyro.Parent then
-			bodyGyro:Destroy()
-		end
-	end)
-end
 				tbl12.Ragdoll = function(arg)
 					if not arg or not arg.Parent or tbl7.States.Ragdolling then
 						return
@@ -31322,7 +31154,7 @@ end
 				Description = "Attempting to serverhop..",
 				Persist = true,
 				SoundId = n34,
-				BigIcon = "rbxthumb://type=Asset&id=92381157551848&w=420&h=420",
+				BigIcon = "rbxthumb://type=Asset&id=94504122563342&w=420&h=420",
 				Volume = n35,
 				IconColor = Color3.new(1, 1, 1),
 			})
@@ -33570,18 +33402,7 @@ Escape Timer: %*]]
 								break
 							end
 						end
-Antis:AddDropdown("AKTypeSelect", {
-    Text = "Anti-Kick Type",
-    Default = "Shuriken",
-    Values = {"Shuriken", "Pencil"},
-    Tooltip = "Выбери метод анти-кика",
-    Callback = function(value)
-        tbl9.AKType = value
-        if value == "Pencil" and tbl8.AntiKick then
-            task.spawn(function() task.wait(0.3) pencilSpawnAndStick() end)
-        end
-    end,
-})
+
 						if tbl9.AKType == "Shuriken" then
 							local parent2, shurHighlight, highlight2, antiKick, forcefieldChar, transparency, isMeshPart
 
@@ -35470,54 +35291,77 @@ end
 										local flag12
 
 										if not (tbl12.GetMagnitude(v23, v27) > 33) then
-    tbl12.Grab(v27)
-    flag12 = tbl9.NKDelayMode == "Faster but worse" or not tbl9.NKDelayMode
-    if flag12 then
-        task.spawn(function()
-            task.wait(0.05)
-            tbl12.RNO(v27)
-        end)
-    elseif tbl9.NKDelayMode == "Normal" then
-        task.spawn(function()
-            for i = 1, 3 do
-                pcall(function()
-                    tbl12.SNO(v27)
-                end)
-                task.wait(0.02)
-            end
-            task.wait(0.01)
-            tbl12.RNO(v27)
-        end)
-       elseif tbl9.NKDelayMode == "Slower Kick" then
-   	task.spawn(function()
-   		tbl12.SlowerKick(v25)
-   	    end)
-    end
-							elseif tbl12.SNO(v27) then
-    tbl12.Teleport(v27, v29)
-    tbl12.Grab(v27)
-    flag12 = tbl9.NKDelayMode == "Faster but worse" or not tbl9.NKDelayMode
-    if flag12 then
-        task.spawn(function()
-            task.wait(0.08)
-            tbl12.RNO(v27)
-        end)
-    elseif tbl9.NKDelayMode == "Normal" then
-        task.spawn(function()
-            for i = 1, 3 do
-                pcall(function()
-                    tbl12.SNO(v27)
-                end)
-                task.wait(0.02)
-            end
-            task.wait(0.01)
-            tbl12.RNO(v27)
-        end)
-    elseif tbl9.NKDelayMode == "Slower Kick" then
-        task.spawn(function()
-            tbl12.SlowerKick(v25)
-        end)
-    end
+											tbl12.Grab(v27)
+											flag12 = tbl9.NKDelayMode == "Faster but worse" or not tbl9.NKDelayMode
+
+                                            			if flag12 then
+                                                task.spawn(function()
+                                                    task.wait(0.05)  -- Уменьшено с 0.2 до 0.05
+                                            tbl12.RNO(v27)
+                                                end)
+											elseif tbl9.NKDelayMode == "Normal" then
+												task.spawn(function()
+													task.wait()
+													tbl12.RNO(v27)
+												end)
+											end
+
+											if tbl8.RagdollInNK then
+												task.spawn(tbl12.Ragdoll, v26)
+											end
+
+											if tbl8.DeleteShurInNK then
+												task.spawn(tbl12.RemoveSticky, v26)
+											end
+
+											tbl12.ToggleCollisions(v26, false)
+											tbl12.RepositionLimbs(v26, true)
+
+											task.delay(0.6, function()
+												if tbl8.LoopApplyMethodT and tbl7.TargetMethods.Kick and tbl7.SelectedPlayers[v25] and tbl12.IsNetworkOwner(v27) then
+													fn21(v27, v27)
+												end
+											end)
+										elseif tbl12.SNO(v27) then
+											tbl12.Teleport(v27, v29)
+											tbl12.Grab(v27)
+											flag12 = tbl9.NKDelayMode == "Faster but worse" or not tbl9.NKDelayMode
+
+											if flag12 then
+                                                task.spawn(function()
+                                                    task.wait(0.08)  -- Уменьшено с 0.2/0.9 до 0.08
+                                                    tbl12.RNO(v27)
+                                                end)
+											elseif tbl9.NKDelayMode == "Normal" then
+												task.spawn(function()
+													task.wait()
+													tbl12.RNO(v27)
+												end)
+											end
+
+											if tbl8.RagdollInNK then
+												task.spawn(tbl12.Ragdoll, v26)
+											end
+
+											if tbl8.DeleteShurInNK then
+												task.spawn(tbl12.RemoveSticky, v26)
+											end
+
+											tbl12.ToggleCollisions(v26, false)
+											tbl12.RepositionLimbs(v26, true)
+
+											task.delay(0.02, function()
+												if tbl8.LoopApplyMethodT and tbl7.TargetMethods.Kick and tbl7.SelectedPlayers[v25] and tbl12.IsNetworkOwner(v27) then
+													fn21(v27, v27)
+												end
+											end)
+										else
+											fn21(v27, nil)
+										end
+									end
+								end
+							end
+
 							if tbl9.NKDelayMode == "Normal" then
 								task.wait()
 							end
@@ -35536,7 +35380,7 @@ end
 			Center = true,
 			AutoShow = true,
 			EnableSidebarResize = true,
-			Icon = "rbxthumb://type=Asset&id=92381157551848&w=420&h=420",
+			Icon = "rbxthumb://type=Asset&id=94504122563342&w=420&h=420",
 			IconSize = UDim2.fromOffset(32, 32),
 			CornerRadius = 6,
 			Compact = true,
@@ -35615,7 +35459,7 @@ end
 			label.Position = UDim2.fromOffset(viewportSize.X * 0.5, viewportSize.Y * 0.8)
 		end
 
-		Watermark = lib:AddDraggableLabel("AntiLose", "rbxthumb://type=Asset&id=92381157551848&w=420&h=420")
+		Watermark = lib:AddDraggableLabel("AntiLose", "rbxthumb://type=Asset&id=94504122563342&w=420&h=420")
 		Watermark:SetVisible(true)
 
 		task.spawn(function()
@@ -37586,7 +37430,12 @@ end
 		tbl12.CreateApplyButton(Apply, true, false, tbl7.SelectedPlayers)
 	end
 
-do
+	do
+		local v20 = tbl15.Target:AddRightGroupbox("Method Settings", "apple")
+
+		-- =====================================================================
+-- NORMAL DELAY KICK (из message (22).txt)
+-- =====================================================================
 local v20 = tbl15.Target:AddRightGroupbox("Method Settings", "apple")
 v20:AddDropdown("MethodSettingsTargets", {
     Values = {
@@ -37611,9 +37460,9 @@ local v21 = v20:AddDependencyBox()
 v21:SetupDependencies({ { options.MethodSettingsTargets, "Kick" } })
 v21:AddDivider("Kick Settings")
 
--- DROPDOWN: Normal / Faster
+-- DROPDOWN: Normal / Faster but worse
 v21:AddDropdown("NKDelayConf", {
-    Values = { "Normal", "Faster but worse", "Slower Kick" }
+    Values = { "Normal", "Faster but worse" },
     Multi = false,
     Default = 1,
     Text = "Delay Mode",
@@ -37678,33 +37527,7 @@ v21:AddButton({
         end
     end,
 })
-    -- DependencyBox: настройки видны ТОЛЬКО при выборе Slower Kick
-local slowerKickBox = v20:AddDependencyBox()
-slowerKickBox:SetupDependencies({ { options.NKDelayConf, "Slower Kick" } })
-
-slowerKickBox:AddSlider("SlowerKickDelay", {
-    Text = "Destroy Line Delay",
-    Default = 0.01,
-    Min = 0,
-    Max = 0.02,
-    Rounding = 3,
-    Suffix = "s",
-    Tooltip = "0 = fastest, 0.02 = slowest",
-    Callback = function(delay)
-        tbl8.SlowerKickDelay = delay
-    end,
-})
-
-slowerKickBox:AddToggle("SlowerKickRagdoll", {
-    Text = "Ragdoll",
-    Default = true,
-    Tooltip = "Enable ragdoll before kick",
-    Callback = function(ragdoll)
-        tbl8.SlowerKickRagdoll = ragdoll
-    end,
-})
-
-v21:AddDivider("Kick Server Settings")
+		v21:AddDivider("Kick Server Settings")
 
 		v21:AddDropdown("KickServerMethod", {
 			Values = { "Circle + Lag", "Void" },
@@ -38027,7 +37850,7 @@ v21:AddDivider("Kick Server Settings")
 					flag13 = false
 
 					if not ok then
-						warn("[House Barrier] " .. tostring(result
+						warn("[House Barrier] " .. tostring(result))
 					end
 				end)
 			end,
@@ -38964,7 +38787,7 @@ v21:AddDivider("Kick Server Settings")
 					Description = "Destroyed 0/" .. #tbl16 .. " toys",
 					Persist = true,
 					SoundId = n34,
-					BigIcon = "rbxthumb://type=Asset&id=92381157551848&w=420&h=420",
+					BigIcon = "rbxthumb://type=Asset&id=94504122563342&w=420&h=420",
 					Volume = n35,
 					IconColor = Color3.new(1, 1, 1),
 				})
@@ -41742,29 +41565,7 @@ v21:AddDivider("Kick Server Settings")
 				v22.Sit = false
 			end
 		end)
-    do
-local RabbitGroup = tbl15.Keybinds:AddLeftGroupbox("Rabbit Mode", "arrow-big-up-dash")
-RabbitGroup:AddToggle("RabbitModeToggle", {
-	Text = "Rabbit Mode",
-	Default = true,
-	Tooltip = "Добавляет эффект прыжка при телепорте",
-	Callback = function(Value)
-		tbl8.RabbitMode = Value
-	end,
-})
-RabbitGroup:AddSlider("ArcHeightSlider", {
-	Text = "Arc Height",
-	Default = 15,
-	Min = 5,
-	Max = 50,
-	Rounding = 0,
-	Suffix = " studs",
-	Tooltip = "Высота прыжка при Rabbit Mode",
-	Callback = function(Value)
-		tbl9.ArcHeight = Value
-	end,
-})
-end
+
 		tbl12.AddKeybind(LocalPlayer, "BackflipKey", "Backflip", nil, "Press", function()
 			local v20, v21, v22 = tbl12.Char()
 
@@ -41785,29 +41586,7 @@ end
 			end
 		end)
 	end
-do
-local RabbitGroup = tbl15.Keybinds:AddLeftGroupbox("Rabbit Mode", "arrow-big-up-dash")
-RabbitGroup:AddToggle("RabbitModeToggle", {
-    Text = "Rabbit Mode",
-    Default = true,
-    Tooltip = "Добавляет эффект прыжка при телепорте",
-    Callback = function(Value)
-        tbl8.RabbitMode = Value
-    end,
-})
-RabbitGroup:AddSlider("ArcHeightSlider", {
-    Text = "Arc Height",
-    Default = 15,
-    Min = 5,
-    Max = 50,
-    Rounding = 0,
-    Suffix = " studs",
-    Tooltip = "Высота прыжка при Rabbit Mode",
-    Callback = function(Value)
-        tbl9.ArcHeight = Value
-    end,
-})
-end
+
 	do
 		local Players2 = tbl15.Keybinds:AddRightGroupbox("Players", "users-round")
 
